@@ -1,0 +1,147 @@
+/* Estilos generales */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Mejora el cálculo del tamaño total */
+}
+
+body, html {
+    background-color: #9b1d20;
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
+
+#contenedor {
+    width: 90%;
+    margin: auto;
+    padding: 10px; /* Aumento del espacio interior */
+}
+
+/* Estilos del encabezado */
+header{
+    width: 100%;
+    height: 5em;
+    background-color:  #d96435; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #fff;
+}
+
+.POZOL {
+    font-size: 3em; /* Reducción del tamaño */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+nav {
+    width: 100%;
+    height: 5em;
+    background-color: #DAB895;
+    text-align: center;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+nav ul li:hover{
+    background: #ede2b7;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos del contenido principal */
+section {
+    background-color: #a0563d;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Estilos del contenido principal */
+.contenido {
+    text-align: center; /* Centrar el texto */
+}
+
+.titulo {
+    font-size: 2em; /* Tamaño de fuente más grande para los títulos */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-align: center; /* Centrar el título */
+}
+
+.investigacion, .titulo2, .vision, .mision .quienessomos {
+    font-size: 1.1em; /* Tamaño de fuente más pequeño para el texto */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-align: center; /* Centrar el texto */
+    margin-top: 10px;
+}
+
+.investigacion {
+    text-align: justify; /* Justificar el texto */
+}
+
+
+/* Estilos del pie de página */
+footer {
+    background-color: #e02222;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    clear: both;
+}
+
+
+
+.imagen {
+    text-align: center; /* Centrar la imagen horizontalmente */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.imagen img {
+    max-width: 100%; /* Ajustar la imagen al ancho máximo del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 10px; /* Agregar bordes redondeados */
+}
+
+footer {
+    text-align: center;
+}
+
+.audio-container {
+    text-align: center;
+    margin-top: 20px; /* Ajusta el margen superior según necesites */
+    align-items: center;
+}
+
+audio {
+    display: block; /* Hace que el elemento de audio se comporte como un bloque */
+    margin-left: auto;
+    margin-right: auto;
+    /* O simplemente: margin: auto; si también quieres algún espacio arriba y abajo */
+}
+
+
+
+
+
